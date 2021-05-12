@@ -1,0 +1,29 @@
+.dizz{
+    height: 1500px;
+    background-color: #888;
+    padding: 0;
+    background-image: url(https://www.facebook.com/messenger_media?thread_id=100013083068582&attachment_id=952633312193519&message_id=mid.%24cAAAADPC5sLd_hqPYF15VV6OvNWng);
+}
+
+.duongnhat{
+    text-align: center;
+    padding-top: 100px
+}
+
+.setting{
+    font-size: 40px;
+}
+
+#nutan{
+    display: none;
+}
+
+.vietching{
+    font-size: 40px;
+    border: 2px solid red;
+    display: none;
+}
+
+#nutan:checked ~ .vietching{
+    display: block;
+}
